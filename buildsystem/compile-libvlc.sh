@@ -174,6 +174,11 @@ else
     NDK_DEBUG=1
 fi
 
+# Custom ChromeCast app ID
+if [ -n "$CHROMECAST_APP_ID" ]; then
+    VLC_CFLAGS="${VLC_CFLAGS} -DCHROMECAST_APP_ID=\"${CHROMECAST_APP_ID}\" "
+fi
+
 ###############
 # DISPLAY ABI #
 ###############
