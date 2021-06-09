@@ -17,7 +17,7 @@ index 7781708fcd..5cafe3543b 100644
  
  // Media player Chromecast app id
 -#define APP_ID "CC1AD845" // Default media player aka DEFAULT_MEDIA_RECEIVER_APPLICATION_ID
-+#define APP_ID "C0CAF481" // Default media player aka DEFAULT_MEDIA_RECEIVER_APPLICATION_ID
++#define APP_ID "1CC84FA6" // Default media player aka DEFAULT_MEDIA_RECEIVER_APPLICATION_ID
  
  enum States
  {
