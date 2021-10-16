@@ -241,51 +241,8 @@ avlc_build()
 ###########################
 
 VLC_BOOTSTRAP_ARGS="\
-    --enable-dvdread \
-    --enable-dvdnav \
-    --disable-dca \
-    --disable-goom \
-    --disable-chromaprint \
-    --enable-lua \
-    --disable-schroedinger \
-    --disable-sdl \
-    --disable-SDL_image \
-    --disable-fontconfig \
-    --enable-zvbi \
-    --disable-kate \
-    --disable-caca \
-    --disable-gettext \
-    --disable-mpcdec \
-    --enable-upnp \
-    --disable-gme \
-    --disable-tremor \
-    --enable-vorbis \
-    --disable-sidplay2 \
-    --disable-samplerate \
-    --disable-faad2 \
-    --enable-harfbuzz \
-    --enable-iconv \
-    --disable-aribb24 \
-    --disable-aribb25 \
-    --enable-mpg123 \
-    --enable-libdsm \
-    --enable-smb2 \
-    --enable-libarchive \
-    --disable-libmpeg2 \
-    --enable-soxr \
-    --enable-nfs \
-    --enable-microdns \
-    --enable-fluidlite \
-    --disable-mad \
-    --disable-vncclient \
-    --disable-vnc \
-    --enable-jpeg \
-    --enable-libplacebo \
-    --enable-ad-clauses \
-    --disable-srt \
-    --enable-vpx \
-    --disable-x265 \
-    --disable-medialibrary \
+    --disable-everything \
+    --enable-vorbis
 "
 
 ###########################
@@ -294,65 +251,8 @@ VLC_BOOTSTRAP_ARGS="\
 
 VLC_CONFIGURE_ARGS="\
     --with-pic \
-    --disable-nls \
-    --enable-live555 --enable-realrtsp \
-    --enable-avformat \
-    --enable-swscale \
-    --enable-avcodec \
-    --enable-opus \
-    --enable-opensles \
-    --enable-matroska \
-    --enable-taglib \
-    --enable-dvbpsi \
-    --disable-vlc --disable-shared \
-    --disable-update-check \
-    --disable-vlm \
-    --disable-dbus \
-    --enable-lua \
-    --disable-vcd \
-    --disable-v4l2 \
-    --enable-dvdread \
-    --enable-dvdnav \
-    --enable-bluray \
-    --disable-linsys \
-    --disable-decklink \
-    --disable-libva \
-    --disable-dv1394 \
-    --enable-mod \
-    --disable-sid \
-    --disable-gme \
-    --disable-tremor \
-    --disable-mad \
-    --enable-mpg123 \
-    --disable-dca \
-    --disable-sdl-image \
-    --enable-zvbi \
-    --disable-fluidsynth \
-    --enable-fluidlite \
-    --disable-jack \
-    --disable-pulse \
-    --disable-alsa \
-    --disable-samplerate \
-    --disable-xcb \
-    --disable-qt \
-    --disable-skins2 \
-    --disable-mtp \
-    --disable-notify \
-    --enable-libass \
-    --disable-svg \
-    --disable-udev \
-    --enable-libxml2 \
-    --disable-caca \
-    --enable-gles2 \
-    --disable-goom \
-    --disable-projectm \
-    --enable-sout \
-    --enable-vorbis \
-    --disable-faad \
-    --disable-schroedinger \
-    --disable-vnc \
-    --enable-jpeg \
-    --enable-smb2 \
+    --disable-everything \
+    --enable-vorbis
 "
 
 ########################
